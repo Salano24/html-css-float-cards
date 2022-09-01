@@ -19,7 +19,7 @@
 
 .container{
 
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin:auto;
     margin-top: 20px;
@@ -46,14 +46,46 @@ img{
     width: calc(100% / 3);
     float: left;
     text-align: left;
-    color: white;
+    color: white; 
+    box-shadow: 0 0 10px black;
+    margin-bottom: 2rem;
 }
 
 span , h3 {
     font-size: 1rem;
-}
 
-.row{
     
 }
 
+
+
+.img{
+    float: left;
+}
+
+.text{
+    float: left;
+   
+}
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+
+span{
+    padding-left: 1rem;
+    font-family: 'Mukta', sans-serif; 
+}
+
+.email{
+    color: var(--email);
+    padding-bottom: 0.5rem;
+}
+
+.row{
+    max-width: 80%;
+    margin: auto;
+}
