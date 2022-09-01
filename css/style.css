@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -13,12 +13,47 @@
 :root{
     --title: #e53170;
     --profile: #0f0e17;
+    --email: #4eb8db;
+}
+
+
+.container{
+
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
 }
 
 h1{
-  font-family: 'Fredoka One', cursive;  
+  font-family: 'Fredoka One', cursive;
+  color: var(--title);  
+  margin-bottom: 20px;
 }
 
 p{
- font-family: 'Mukta', sans-serif;   
+ font-family: 'Mukta', sans-serif; 
+ margin-bottom: 20px;
 }
+
+img{
+    max-width: 100%;
+    width: 80px;
+}
+
+.col_3{
+   background-color: var(--profile);
+    width: calc(100% / 3);
+    float: left;
+    text-align: left;
+    color: white;
+}
+
+span , h3 {
+    font-size: 1rem;
+}
+
+.row{
+    
+}
+
