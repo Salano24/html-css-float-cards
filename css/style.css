@@ -25,6 +25,12 @@
     margin-top: 20px;
 }
 
+main{
+
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
 h1{
   font-family: 'Fredoka One', cursive;
   color: var(--title);  
@@ -41,18 +47,17 @@ img{
     width: 80px;
 }
 
-.col_3{
-   background-color: var(--profile);
-    width: calc(100% / 3);
-    float: left;
+.clearfix{
+    background-color: var(--profile);
     text-align: left;
-    color: white; 
+    color: white;
     box-shadow: 0 0 10px black;
     margin-bottom: 2rem;
 }
 
 span , h3 {
     font-size: 1rem;
+   
 
     
 }
@@ -85,7 +90,8 @@ span{
     padding-bottom: 0.5rem;
 }
 
-.row{
-    max-width: 80%;
-    margin: auto;
+.col_3{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 1rem;
 }
